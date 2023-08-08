@@ -25,14 +25,16 @@
 
 .signin{
     background-color: red;
-    color: white;
     border-radius: 5px;
     padding: 5px;
     min-width: 120px;
     text-align: center;
     text-transform: uppercase;
 }
-
+.signin-a, .flex>a{
+   color: white;
+   text-decoration: none;
+}
  .foot{
     text-decoration: none;
     color:darkturquoise;
