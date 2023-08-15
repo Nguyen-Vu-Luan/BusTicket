@@ -94,8 +94,214 @@ html {
 
 
 
- 
+
+
+
+
+.box { 
+   width: 80%;
+   padding: 8px;
+   box-sizing: border-box;
+   border-radius: 20px;
+   padding-bottom: 24px;
+}
+.boxx {
+   border: 1.5px solid #fb6400;
+   height: 200px;
+   border-radius: 20px;
+   text-align: center;
+   box-shadow: 5px 10px 15px 20px rgba(0, 0, 0, 0.2);
+}
+.boxx-padding20 {
+   padding: 20px;
+   font-weight: bolder;
+   background-color: #fb6400;
+   color: white;
+   border-radius: 19px;
+}
+.boxx-table {
+   display: flex;
+   height: 100px;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+label {
+   font-weight: bolder;
+   color: #00613d;
+   width: max-content;
+}
+.start {
+   border: 1px solid #fb6400;
+   border-radius: 10px;
+   padding: 20px;
+   margin: 5px;
+   margin-left: 10px;
+   width: 180px;
+   display: inline-block;
+}
+.end {
+   border: 1px solid #fb6400;
+   border-radius: 10px;
+   padding: 20px;
+   margin: 5px;
+   width: 180px;
+   outline: none;
+   transition: 0.2s;
+}
+.end:focus {
+   border: 2px solid #00613d;
+}
+.date {
+   border: 1px solid #fb6400;
+   border-radius: 10px;
+   padding: 20px;
+   margin: 5px;
+   width: 180px;
+   outline: none;
+   transition: 0.2s;
+   cursor: pointer;
+   display: block;
+}
+.date:focus {
+   border: 2px solid #00613d;
+}
+.tickets {
+   border: 1px solid #fb6400;
+   border-radius: 10px;
+   padding: 20px;
+   margin: 5px;
+   margin-right: 10px;
+   width: 180px;
+   outline: none;
+   transition: 0.2s;
+   cursor: pointer;
+   
+}
+.tickets:focus {
+   border: 2px solid #00613d;
+}
+.search {
+   display: block;
+   box-sizing: border-box;
+   line-height: 50px;
+   border: 1px solid #fb6400;
+   border-radius: 30px;
+   width: 250px;
+   height: 50px;
+   font-size: large;
+   color: white;
+   background-color: #fb6400;
+   cursor: pointer;
+   margin: 0 auto;
+   position: relative;
+   z-index: 1;
+   top: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  .footer-hr{
+   padding-top: 15px;
     padding-bottom: 15px;
     width: 100%;
  }

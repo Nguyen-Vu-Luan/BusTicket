@@ -9,7 +9,8 @@
     <title>Vé Xe Khách | Đặt Vé Nhanh</title>
 </head>
 <body>
-    <header>
+    <script src="index.js"></script>
+    <!-- <header>
         <section>
             <div class="flex bg">
                 <div class="flex">
@@ -43,43 +44,50 @@
                 </div>
             </div>
         </section>
-    </header>
+    </header> -->
     <main>
         <section>
-            <div style="background-color: #f6eae6; width: 80%; padding: 8px; box-sizing: border-box; border-radius: 20px;">
-                <div style="border: 1.5px solid #fb6400; height: 200px; border-radius: 20px; text-align: center; background-color: #ffffff;">
-                    <div style="padding: 20px;">NHẬP THÔNG TIN</div>
-                    <div style="display: flex; height: 100px; align-items: center; flex-wrap: wrap; justify-content: space-evenly;">
-                        <div style="margin: 0;">
-                            <label>Điểm đi</label>
-                            <div style="border: 1px solid #fb6400; border-radius: 10px; padding: 20px; margin: 5px; margin-left: 10px; width: 180px;">
-                                <span>Chọn điểm đi</span>
+            <div>
+                <div class="box">
+                    <div class="boxx">
+                        <div class="boxx-padding20">NHẬP THÔNG TIN</div>
+                        <div class="boxx-table">
+                            <div>
+                                <label>Điểm đi</label>
+                                <div>
+                                    <span class="start">TP. Hồ Chí Minh</span>
+                                </div>
                             </div>
-                        </div>
-                        <div style="margin: 0;">
-                            <label>Điểm đến</label>
-                            <div style="border: 1px solid #fb6400; border-radius: 10px; padding: 20px; margin: 5px; width: 180px;">
-                                <span>Chọn điểm đi</span>
+                            <div>
+                                <label>Điểm đến</label>
+                                <div>
+                                    <input class="end" type="text" placeholder="Chọn điểm đến">  
+                                </div>
                             </div>
-                        </div>
-                        <div style="margin: 0;">
-                            <label>Ngày đi</label>
-                            <div style="border: 1px solid #fb6400; border-radius: 10px; padding: 20px; margin: 5px; width: 180px;">
-                                <span>Chọn điểm đi</span>
+                            <div>
+                                <label>Ngày đi</label>
+                                <div class="date" id="date"></div>
                             </div>
-                        </div>
-                        <div style="margin: 0;">
-                            <label>Số vé</label>
-                            <div style="border: 1px solid #fb6400; border-radius: 10px; padding: 20px; margin: 5px; margin-right: 10px; width: 180px;">
-                                <span>Chọn điểm đi</span>
+                            <div>
+                                <label>Số vé</label>
+                                <div>
+                                    <select class="tickets" id="tickets" name="tickets">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>  
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <button class="search">Tìm chuyến xe</button>
         </section>
     </main>
-    <footer>
+    <!-- <footer>
         <div class="footer-hr">
             <hr>
         </div>
@@ -104,7 +112,7 @@
         <a href="#" class="totop">
             <i class="fas fa-chevron-up"></i>
         </a>
-    </footer>
-    <script src="index.js"></script>
+    </footer> -->
+    
 </body>
 </html>
