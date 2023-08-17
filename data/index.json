@@ -1,0 +1,56 @@
+[{
+    "id": 1,
+    "name": "TP.Hồ Chí Minh &#8644; Tiền Giang",
+    "time": "2 Giờ",
+    "distance": "100 Km"
+},{
+    "id": 2,
+    "name": "TP.Hồ Chí Minh &#8644; Kiên Giang",
+    "time": "6 Giờ",
+    "distance": "200 Km"
+},{
+    "id": 3,
+    "name": "TP.Hồ Chí Minh &#8644; Hậu Giang",
+    "time": "4.5 Giờ",
+    "distance": "205 Km"
+},{
+    "id": 4,
+    "name": "TP.Hồ Chí Minh &#8644; Long An",
+    "time": "1.5 Giờ",
+    "distance": "55 Km"
+},{
+    "id": 5,
+    "name": "TP.Hồ Chí Minh &#8644; Trà Vinh",
+    "time": "3 Giờ",
+    "distance": "137 Km"
+},{
+    "id": 6,
+    "name": "TP.Hồ Chí Minh &#8644; Sóc Trăng",
+    "time": "5 Giờ",
+    "distance": "247 Km"
+},{
+    "id": 7,
+    "name": "TP.Hồ Chí Minh &#8644; Đồng Tháp",
+    "time": "3.5 Giờ",
+    "distance": "160 Km"
+},{
+    "id": 8,
+    "name": "TP.Hồ Chí Minh &#8644; Vĩnh Long",
+    "time": "2.5 Giờ",
+    "distance": "118 Km"
+},{
+    "id": 9,
+    "name": "TP.Hồ Chí Minh &#8644; Bạc Liêu",
+    "time": "6.5 Giờ",
+    "distance": "305 Km"
+},{
+    "id": 10,
+    "name": "TP.Hồ Chí Minh &#8644; Cà Mau",
+    "time": "7 Giờ",
+    "distance": "348 Km"
+},{
+    "id": 11,
+    "name": "TP.Hồ Chí Minh &#8644; Bến Tre",
+    "time": "2 Giờ",
+    "distance": "77 Km"
+}]

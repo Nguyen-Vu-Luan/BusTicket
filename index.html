@@ -9,8 +9,7 @@
     <title>Vé Xe Khách | Đặt Vé Nhanh</title>
 </head>
 <body>
-    <script src="index.js"></script>
-    <!-- <header>
+    <header>
         <section>
             <div class="flex bg">
                 <div class="flex">
@@ -27,8 +26,8 @@
                     <a class="div-img" href="#"><img class="img" src="imgs/Vé Xe Khách.png" alt="logo"></a>
                 <div id="menu">
                     <ul>
-                        <li><a href="#">TRANGCHỦ</a></li>
-                        <li><a href="#">LỊCHTRÌNH</a></li>
+                        <li><a href="#">TRANG CHỦ</a></li>
+                        <li><a href="#">LỊCH TRÌNH</a></li>
                         <li><a href="#">LIÊN HỆ</a></li>
                         <li><a href="#">HÓA ĐƠN</a></li>
                         <li>
@@ -39,18 +38,18 @@
                                 <li><a href="https://megabus.vn/" target="_blank">Megabus</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">VỀCHÚNGTÔI</a></li>
+                        <li><a href="#">VỀ CHÚNG TÔI</a></li>
                     </ul>
                 </div>
             </div>
         </section>
-    </header> -->
+    </header>
     <main>
         <section>
             <div>
                 <div class="box">
                     <div class="boxx">
-                        <div class="boxx-padding20">NHẬP THÔNG TIN</div>
+                        <h2 class="boxx-padding20">NHẬP THÔNG TIN</h2>
                         <div class="boxx-table">
                             <div>
                                 <label>Điểm đi</label>
@@ -66,12 +65,12 @@
                             </div>
                             <div>
                                 <label>Ngày đi</label>
-                                <div class="date" id="date"></div>
+                                <input type="date" class="date" id="date">                               
                             </div>
                             <div>
                                 <label>Số vé</label>
                                 <div>
-                                    <select class="tickets" id="tickets" name="tickets">
+                                    <select class="tickets" id="tickets" name="tickets" aria-placeholder="aaaaa">
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -86,8 +85,23 @@
             </div>
             <button class="search">Tìm chuyến xe</button>
         </section>
+        <nav>
+            <h2 class="boxx-padding20 pad-bot">CÁC TUYẾN ĐƯỜNG KHAI THÁC</h2>
+            <div class="route" id="route">
+                <div class="name-route">TP.Hồ Chí Minh &#8644; An Giang</div>
+                <div class="flex border">
+                    <img class="item" src="imgs/Vé Xe Khách.png" alt="An Giang">
+                    <div>
+                        <div class="info">Thời Gian dự kiến: 6 Giờ. </div>
+                        <div class="info">Khoảng cách: 207 Km.</div>
+                        <button class="oder">Tiến hành đặt vé</button>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
     </main>
-    <!-- <footer>
+    <footer>
         <div class="footer-hr">
             <hr>
         </div>
@@ -112,7 +126,7 @@
         <a href="#" class="totop">
             <i class="fas fa-chevron-up"></i>
         </a>
-    </footer> -->
-    
+        <script src="index.js"></script>
+    </footer>
 </body>
 </html>

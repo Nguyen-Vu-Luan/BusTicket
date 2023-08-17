@@ -70,6 +70,7 @@ html {
    color: #00613d;
    border-radius: 10px;
    font-size: large;
+   white-space: nowrap;
 }
 #menu ul li a:hover {
    background-color: #00613d;
@@ -118,6 +119,7 @@ html {
    background-color: #fb6400;
    color: white;
    border-radius: 19px;
+   text-align: center;
 }
 .boxx-table {
    display: flex;
@@ -148,6 +150,7 @@ label {
    width: 180px;
    outline: none;
    transition: 0.2s;
+   text-align: center;
 }
 .end:focus {
    border: 2px solid #00613d;
@@ -162,7 +165,9 @@ label {
    transition: 0.2s;
    cursor: pointer;
    display: block;
+   text-align: center;
 }
+
 .date:focus {
    border: 2px solid #00613d;
 }
@@ -176,7 +181,6 @@ label {
    outline: none;
    transition: 0.2s;
    cursor: pointer;
-   
 }
 .tickets:focus {
    border: 2px solid #00613d;
@@ -191,7 +195,7 @@ label {
    height: 50px;
    font-size: large;
    color: white;
-   background-color: #fb6400;
+   background-color: darkcyan;
    cursor: pointer;
    margin: 0 auto;
    position: relative;
@@ -199,8 +203,87 @@ label {
    top: -50px;
 }
 
-
-
+.oder {
+   display: block;
+   box-sizing: border-box;
+   line-height: 50px;
+   border: 1px solid #fb6400;
+   border-radius: 30px;
+   width: 250px;
+   height: 50px;
+   color: white;
+   background-color: #fb6400;
+   cursor: pointer;
+   margin: 0 auto;
+   position: relative;
+   top: 104px;
+}
+@-webkit-keyframes my {
+   0% { color: #F8CD0A; } 
+   50% { color: #fff;  } 
+   100% { color: #F8CD0A;  } 
+}
+@-moz-keyframes my { 
+   0% { color: #F8CD0A;  } 
+   50% { color: #fff;  }
+   100% { color: #F8CD0A;  } 
+}
+@-o-keyframes my { 
+   0% { color: #F8CD0A; } 
+   50% { color: #fff; } 
+   100% { color: #F8CD0A;  } 
+}
+@keyframes my { 
+   0% { color: #F8CD0A;  } 
+   50% { color: #fff;  }
+   100% { color: #F8CD0A;  } 
+} 
+.oder, .search {
+   font-size: larger;
+   -webkit-animation: my 700ms infinite;
+   -moz-animation: my 700ms infinite; 
+   -o-animation: my 700ms infinite; 
+   animation: my 700ms infinite;
+}
+.pad-bot{
+   margin-bottom: 50px;
+   width: 78%;
+}
+.route {
+   width: 81%;
+   box-sizing: border-box;
+   border-radius: 30px;
+   margin-bottom: 5px;
+}
+.name-route {
+   color: white;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+   background-color: darkcyan;
+   text-align: center;
+   font-size: larger;
+   padding: 20px;
+   border-bottom: 1px solid #fb6400 ;
+}
+.item {
+   width: 100%;
+   height: 350px;
+   margin: 0;
+   border-bottom-left-radius: 30px;
+}
+.info {
+   font-size: 15px;
+   margin-left: 20px;
+   margin: 20px   ;
+   color: #00613d ;
+}
+.border {
+   border-bottom: 1px solid #fb6400;
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+   border-left: 1px solid #fb6400;
+   border-right: 1px solid #fb6400;
+}
 
 
 
