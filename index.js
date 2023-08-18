@@ -29,3 +29,16 @@ function loadIndex() {
 window.onload = () => {
     loadIndex();
 }
+
+//sticky menu
+var logoPos = $(".logo").offset().left; // lưu vị trí ban đầu
+
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 50) { // thay đổi số này để điều chỉnh thời điểm cố định nội dung
+        $(".logo").css({"position": "fixed", "top": "0", "left": logoPos + "px", "z-index": "9999", "background-color": "#20b2aa", "border-bottom-left-radius": "10px", "border-bottom-right-radius": "10px",});
+    } else {
+        $(".logo").css({"position": "relative", "left": "auto", "background-color": "transparent", "width": "100%"});
+    }
+});
+

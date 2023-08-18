@@ -44,12 +44,14 @@ html {
  .logo{
    padding-bottom: 15px;
    padding-top: 15px;
-   width: 70%;
+   width: 100%;
  }
  .div-img{
    width: 100px;
+   margin-left: 80px;
  }
  .img{
+   position: sticky;
    width: 100%;
    border-radius: 15px;
  }
@@ -59,10 +61,11 @@ html {
  }
 #menu ul li {
    display: inline-table;
-   width: 120px;
+   width: 150px;
    height: 40px;
    line-height: 40px;
    position: relative;
+   margin-left: 10px;
 }
 #menu ul li a {
    text-decoration: none;
