@@ -99,3 +99,21 @@ document.querySelector('.send').addEventListener('click', function(event) {
     }
 });
 
+/*hàm ân ẩn hiện menu của header*/
+{
+    window.onload = function () {
+        let m = document.getElementById("selec-header");
+        let d = document.querySelector(".show-nav");
+        d.addEventListener("click", function () {
+            m.style.right = "50%";
+            m.style.left = 0;
+        });
+
+        let c = document.querySelector(".close");
+        c.addEventListener("click", function () {
+            m.style.right = "unset";
+            m.style.left = "-100%";
+        })
+    }
+
+}
